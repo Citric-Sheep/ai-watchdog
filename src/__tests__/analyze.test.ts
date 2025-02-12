@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { analyzeWithGPT, extractConfidenceScore } from '../index';
-import { TestCache } from './cache-helper';
+import { analyzeWithGPT, extractConfidenceScore } from '../index.ts';
+import { TestCache } from './cache-helper.ts';
 
 async function analyzeFiles() {
   // Get API key from environment and validate it
